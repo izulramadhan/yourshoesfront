@@ -1,0 +1,70 @@
+* {
+ padding: 0;
+ margin: 0;
+}
+body {
+ width: 100%;
+ height: 400px;
+ background-image: url(../gambar/log.jpg);
+ background-size: cover;
+ background-attachment: fixed;
+ background-position: center;
+}
+.dasar {
+ width: 380px;
+ height: 300px;
+ background:white;
+ margin: 150px auto;
+ border-radius: 20px;
+ /*opacity: 0.3;*/
+ background: rgb(255, 250, 250,0.20);
+}
+.user {
+ height: 36px;
+ width: 215px;
+ margin-left: 5px;
+ vertical-align: top;
+ border:1px white;
+ text-align: center;
+ outline-color: white;
+ margin-top: 1px;
+}
+.username {
+ width: 255px;
+ height: 38px;
+ background: white;
+ margin: 30px auto;
+ border: 1px solid #000066;
+}
+.usernam {
+ width: 260px;
+ height: 38px;
+ background: white;
+ margin: 30px auto;
+ margin-top: -20px;
+ border: 1px solid #000066;
+}
+.btn {
+ width: 250px;
+ height: 40px;
+ background: #0099FF;
+ border: 0;
+ color: white;
+ margin-top: 30px;
+ cursor: pointer;
+
+}
+.btn:active {
+ transform: translateY(3px);
+ background-color: rgb(222, 156, 60);
+}
+.logo {
+ width: 100px;
+ height: 60px;
+ margin:40px auto;
+}
+.txt{
+	padding-top: 8px;
+	color: white;
+	font-style: italic;
+}
